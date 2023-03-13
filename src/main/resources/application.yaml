@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    url: jdbc:sqlserver://DESKTOP-PMIHPND\SQLEXPRESS2019:1433;encrypt=true;trustServerCertificate=true;databaseName=comunicaciones
+    username: SQLAuth
+    password: JavaDev$6
+    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+  jpa:
+    show-sql: true
